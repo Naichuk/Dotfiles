@@ -1,0 +1,15 @@
+VirtualBox GUI VM Selector Window 5.2.16 r123745 linux.amd64 (Jul 31 2018 19:13:35) release log
+00:00:00.255581 Log opened 2018-08-07T08:15:10.752514000Z
+00:00:00.255582 Build Type: release
+00:00:00.255584 OS Product: Linux
+00:00:00.255584 OS Release: 4.16.13-1-ARCH
+00:00:00.255585 OS Version: #1 SMP PREEMPT Thu May 31 23:29:29 UTC 2018
+00:00:00.255602 DMI Product Name: MS-7A39
+00:00:00.255607 DMI Product Version: 1.0
+00:00:00.255642 Host RAM: 6983MB (6.8GB) total, 2865MB (2.7GB) available
+00:00:00.255645 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.255645 Process ID: 13808
+00:00:00.255646 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.255665 Qt version: 5.11.0
+00:00:00.266651 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.266668 GUI: UIMediumEnumerator: Medium-enumeration finished!

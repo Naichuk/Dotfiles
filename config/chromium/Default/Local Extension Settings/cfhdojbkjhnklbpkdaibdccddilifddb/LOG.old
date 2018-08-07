@@ -1,0 +1,20 @@
+2018/08/07-11:53:30.168 1573 Reusing MANIFEST /home/naichuk/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2018/08/07-11:53:30.170 1573 Recovering log #6631
+2018/08/07-11:53:30.171 1573 Reusing old log /home/naichuk/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/006631.log 
+2018/08/07-11:54:30.965 2141 Level-0 table #6635: started
+2018/08/07-11:54:31.013 2141 Level-0 table #6635: 3465245 bytes OK
+2018/08/07-11:54:31.016 2141 Delete type=0 #6631
+2018/08/07-11:54:32.879 2141 Level-0 table #6637: started
+2018/08/07-11:54:32.926 2141 Level-0 table #6637: 3465003 bytes OK
+2018/08/07-11:54:32.928 2141 Delete type=0 #6634
+2018/08/07-11:54:32.930 2141 Compacting 4@0 + 2@1 files
+2018/08/07-11:54:33.031 2141 Generated table #6638@0: 1 keys, 3464760 bytes
+2018/08/07-11:54:33.035 2141 Generated table #6639@0: 3 keys, 368 bytes
+2018/08/07-11:54:33.035 2141 Compacted 4@0 + 2@1 files => 3465128 bytes
+2018/08/07-11:54:33.037 2141 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/08/07-11:54:33.037 2141 Delete type=2 #6627
+2018/08/07-11:54:33.037 2141 Delete type=2 #6626
+2018/08/07-11:54:33.037 2141 Delete type=2 #6630
+2018/08/07-11:54:33.037 2141 Delete type=2 #6635
+2018/08/07-11:54:33.038 2141 Delete type=2 #6637
+2018/08/07-11:54:33.038 2141 Delete type=2 #6632

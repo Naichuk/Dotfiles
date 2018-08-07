@@ -1,0 +1,26 @@
+2018/08/07-12:40:13.471 826 Reusing MANIFEST /home/naichuk/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/08/07-12:40:13.472 826 Recovering log #3
+2018/08/07-12:40:13.502 826 Level-0 table #3: started
+2018/08/07-12:40:13.547 826 Level-0 table #3: 4207233 bytes OK
+2018/08/07-12:40:13.552 826 Delete type=0 #3
+2018/08/07-12:40:21.159 1372 Level-0 table #6: started
+2018/08/07-12:40:21.189 1372 Level-0 table #6: 5133359 bytes OK
+2018/08/07-12:40:21.192 1372 Delete type=0 #4
+2018/08/07-12:42:14.515 1372 Level-0 table #8: started
+2018/08/07-12:42:14.554 1372 Level-0 table #8: 4895276 bytes OK
+2018/08/07-12:42:14.556 1372 Delete type=0 #5
+2018/08/07-13:09:44.531 1372 Level-0 table #10: started
+2018/08/07-13:09:44.566 1372 Level-0 table #10: 4895317 bytes OK
+2018/08/07-13:09:44.569 1372 Delete type=0 #7
+2018/08/07-13:09:44.570 1372 Compacting 4@0 + 0@1 files
+2018/08/07-13:09:44.604 1372 Generated table #11@0: 59 keys, 2488223 bytes
+2018/08/07-13:09:44.612 1372 Generated table #12@0: 8 keys, 1457 bytes
+2018/08/07-13:09:44.612 1372 Compacted 4@0 + 0@1 files => 2489680 bytes
+2018/08/07-13:09:44.614 1372 compacted to: files[ 0 2 0 0 0 0 0 ]
+2018/08/07-13:09:44.614 1372 Delete type=2 #6
+2018/08/07-13:09:44.614 1372 Delete type=2 #10
+2018/08/07-13:09:44.615 1372 Delete type=2 #8
+2018/08/07-13:09:44.615 1372 Delete type=2 #3
+2018/08/07-14:29:45.535 1372 Level-0 table #14: started
+2018/08/07-14:29:45.561 1372 Level-0 table #14: 4895292 bytes OK
+2018/08/07-14:29:45.563 1372 Delete type=0 #9

@@ -1,0 +1,43 @@
+2018/08/07-12:40:12.415 826 Reusing MANIFEST /home/naichuk/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2018/08/07-12:40:12.416 826 Recovering log #6494
+2018/08/07-12:40:12.417 826 Reusing old log /home/naichuk/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/006494.log 
+2018/08/07-12:41:13.149 1886 Level-0 table #6498: started
+2018/08/07-12:41:13.196 1886 Level-0 table #6498: 3476164 bytes OK
+2018/08/07-12:41:13.198 1886 Delete type=0 #6494
+2018/08/07-12:41:13.199 1886 Compacting 4@0 + 2@1 files
+2018/08/07-12:41:13.308 1886 Generated table #6499@0: 1 keys, 3475481 bytes
+2018/08/07-12:41:13.313 1886 Generated table #6500@0: 6 keys, 515 bytes
+2018/08/07-12:41:13.313 1886 Compacted 4@0 + 2@1 files => 3475996 bytes
+2018/08/07-12:41:13.314 1886 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/08/07-12:41:13.315 1886 Delete type=2 #6498
+2018/08/07-12:41:13.315 1886 Delete type=2 #6487
+2018/08/07-12:41:13.316 1886 Delete type=2 #6488
+2018/08/07-12:41:13.316 1886 Delete type=2 #6495
+2018/08/07-12:41:13.317 1886 Delete type=2 #6490
+2018/08/07-12:41:13.317 1886 Delete type=2 #6493
+2018/08/07-12:41:48.452 1886 Level-0 table #6502: started
+2018/08/07-12:41:48.513 1886 Level-0 table #6502: 3475724 bytes OK
+2018/08/07-12:41:48.517 1886 Delete type=0 #6497
+2018/08/07-13:41:13.521 1886 Level-0 table #6504: started
+2018/08/07-13:41:13.586 1886 Level-0 table #6504: 3475846 bytes OK
+2018/08/07-13:41:13.588 1886 Delete type=0 #6501
+2018/08/07-14:00:10.383 1886 Level-0 table #6506: started
+2018/08/07-14:00:10.425 1886 Level-0 table #6506: 3475723 bytes OK
+2018/08/07-14:00:10.427 1886 Delete type=0 #6503
+2018/08/07-14:41:13.538 1886 Level-0 table #6508: started
+2018/08/07-14:41:13.600 1886 Level-0 table #6508: 3475938 bytes OK
+2018/08/07-14:41:13.603 1886 Delete type=0 #6505
+2018/08/07-14:41:13.662 1886 Compacting 4@0 + 2@1 files
+2018/08/07-14:41:13.751 1886 Generated table #6509@0: 1 keys, 3475480 bytes
+2018/08/07-14:41:13.756 1886 Generated table #6510@0: 6 keys, 515 bytes
+2018/08/07-14:41:13.756 1886 Compacted 4@0 + 2@1 files => 3475995 bytes
+2018/08/07-14:41:13.757 1886 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/08/07-14:41:13.758 1886 Delete type=2 #6506
+2018/08/07-14:41:13.758 1886 Delete type=2 #6502
+2018/08/07-14:41:13.759 1886 Delete type=2 #6508
+2018/08/07-14:41:13.759 1886 Delete type=2 #6504
+2018/08/07-14:41:13.760 1886 Delete type=2 #6499
+2018/08/07-14:41:13.760 1886 Delete type=2 #6500
+2018/08/07-14:46:12.514 1886 Level-0 table #6512: started
+2018/08/07-14:46:12.572 1886 Level-0 table #6512: 3475723 bytes OK
+2018/08/07-14:46:12.578 1886 Delete type=0 #6507

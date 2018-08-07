@@ -1,0 +1,32 @@
+2018/08/07-12:40:12.296 826 Reusing MANIFEST /home/naichuk/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2018/08/07-12:40:12.297 826 Recovering log #6636
+2018/08/07-12:40:12.298 826 Reusing old log /home/naichuk/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/006636.log 
+2018/08/07-12:41:13.677 1886 Level-0 table #6642: started
+2018/08/07-12:41:13.726 1886 Level-0 table #6642: 3465408 bytes OK
+2018/08/07-12:41:13.730 1886 Delete type=0 #6636
+2018/08/07-12:41:48.380 1886 Level-0 table #6644: started
+2018/08/07-12:41:48.447 1886 Level-0 table #6644: 3465011 bytes OK
+2018/08/07-12:41:48.451 1886 Delete type=0 #6641
+2018/08/07-13:41:13.590 1886 Level-0 table #6646: started
+2018/08/07-13:41:13.637 1886 Level-0 table #6646: 3465120 bytes OK
+2018/08/07-13:41:13.639 1886 Delete type=0 #6643
+2018/08/07-14:00:10.335 1886 Level-0 table #6648: started
+2018/08/07-14:00:10.379 1886 Level-0 table #6648: 3465009 bytes OK
+2018/08/07-14:00:10.382 1886 Delete type=0 #6645
+2018/08/07-14:00:10.427 1886 Compacting 4@0 + 2@1 files
+2018/08/07-14:00:10.523 1886 Generated table #6649@0: 1 keys, 3464767 bytes
+2018/08/07-14:00:10.528 1886 Generated table #6650@0: 3 keys, 367 bytes
+2018/08/07-14:00:10.528 1886 Compacted 4@0 + 2@1 files => 3465134 bytes
+2018/08/07-14:00:10.530 1886 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/08/07-14:00:10.531 1886 Delete type=2 #6638
+2018/08/07-14:00:10.532 1886 Delete type=2 #6646
+2018/08/07-14:00:10.532 1886 Delete type=2 #6648
+2018/08/07-14:00:10.533 1886 Delete type=2 #6644
+2018/08/07-14:00:10.533 1886 Delete type=2 #6642
+2018/08/07-14:00:10.533 1886 Delete type=2 #6639
+2018/08/07-14:41:13.604 1886 Level-0 table #6652: started
+2018/08/07-14:41:13.659 1886 Level-0 table #6652: 3465220 bytes OK
+2018/08/07-14:41:13.661 1886 Delete type=0 #6647
+2018/08/07-14:46:12.579 1886 Level-0 table #6654: started
+2018/08/07-14:46:12.766 1886 Level-0 table #6654: 3465008 bytes OK
+2018/08/07-14:46:12.769 1886 Delete type=0 #6651

@@ -1,0 +1,24 @@
+2018/08/07-12:40:12.390 946 Reusing MANIFEST /home/naichuk/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/08/07-12:40:12.390 946 Recovering log #151
+2018/08/07-12:40:12.391 946 Reusing old log /home/naichuk/.config/chromium/Default/Session Storage/000151.log 
+2018/08/07-12:41:47.125 1886 Level-0 table #155: started
+2018/08/07-12:41:47.128 1886 Level-0 table #155: 17113 bytes OK
+2018/08/07-12:41:47.131 1886 Delete type=0 #151
+2018/08/07-13:13:15.200 1886 Level-0 table #157: started
+2018/08/07-13:13:15.340 1886 Level-0 table #157: 22606 bytes OK
+2018/08/07-13:13:15.342 1886 Delete type=0 #154
+2018/08/07-13:13:15.343 1886 Compacting 4@0 + 1@1 files
+2018/08/07-13:13:15.349 1886 Generated table #158@0: 1503 keys, 56686 bytes
+2018/08/07-13:13:15.349 1886 Compacted 4@0 + 1@1 files => 56686 bytes
+2018/08/07-13:13:15.351 1886 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/08/07-13:13:15.351 1886 Delete type=2 #157
+2018/08/07-13:13:15.351 1886 Delete type=2 #152
+2018/08/07-13:13:15.351 1886 Delete type=2 #148
+2018/08/07-13:13:15.352 1886 Delete type=2 #155
+2018/08/07-13:13:15.352 1886 Delete type=2 #150
+2018/08/07-14:19:28.128 1886 Level-0 table #160: started
+2018/08/07-14:19:28.131 1886 Level-0 table #160: 15931 bytes OK
+2018/08/07-14:19:28.133 1886 Delete type=0 #156
+2018/08/07-14:26:15.243 1886 Level-0 table #162: started
+2018/08/07-14:26:15.248 1886 Level-0 table #162: 21791 bytes OK
+2018/08/07-14:26:15.251 1886 Delete type=0 #159

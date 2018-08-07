@@ -1,0 +1,149 @@
+[08/06/18, 12:58:52:917] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[08/06/18, 12:58:52:917] info: ║      Slack 3.2.1, linux 4.16.13-1-ARCH on x64 at 08/06/18, 12:58:52:914      ║
+[08/06/18, 12:58:52:917] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[08/06/18, 12:58:52:983] info: Initializing local storage instance at path: /home/naichuk/.config/Slack/local-settings.json
+[08/06/18, 12:58:53:303] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[08/06/18, 12:58:53:303] error: Desktop module calls failed to load
+[08/06/18, 12:58:53:325] info: cld3::loadModule: loading cld3 module
+[08/06/18, 12:58:53:349] info: cld3Loader::loadModule: running environment is NODE
+[08/06/18, 12:58:53:349] info: cld3Loader::loadModule: constructed module object for runtime
+[08/06/18, 12:58:53:463] info: cld3Loader::initializeRuntime: successfully initialized module
+[08/06/18, 12:58:53:463] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[08/06/18, 12:58:53:472] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[08/06/18, 12:58:53:480] info: Main window preload script finished
+{
+  "readyTime": 788.048285
+}
+[08/06/18, 12:58:55:675] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:55:678] info: Store: MAIN_WINDOW_SHOWN
+[08/06/18, 12:58:55:901] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:56:371] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/06/18, 12:58:56:999] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 7680.083968
+}
+[08/06/18, 12:58:57:163] info: Store: SELECT_CHANNEL CBTGFB1C7
+[08/06/18, 12:58:57:163] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:57:163] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[08/06/18, 12:58:57:164] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8XPR1RA7",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[08/06/18, 12:58:57:170] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1920,
+    1060
+  ]
+}
+[08/06/18, 12:58:57:273] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_original.jpg"
+  },
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:57:274] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:57:274] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:57:275] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[08/06/18, 12:58:57:411] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:57:412] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8XPR1RA7",
+  "token": "xoxs-⋯"
+}
+[08/06/18, 12:58:58:214] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[08/06/18, 12:58:58:230] info: loadAsmModule: loading hunspell-asm module
+[08/06/18, 12:58:58:428] info: loadAsmModule: asm module loaded successfully
+[08/06/18, 12:58:58:429] info: SpellChecker: Starting spellchecker with language detector
+[08/06/18, 12:58:58:429] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[08/06/18, 12:58:58:429] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[08/06/18, 12:58:58:548] info: download: downloading dictionary for 'en-us'
+[08/06/18, 12:58:58:548] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[08/06/18, 12:58:58:551] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[08/06/18, 12:58:58:556] info: dictionaryDownloader: verifying hash
+[08/06/18, 12:58:58:583] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[08/06/18, 12:58:58:616] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[08/06/18, 12:58:58:618] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[08/06/18, 12:58:58:619] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[08/06/18, 12:58:58:619] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}

@@ -1,0 +1,14 @@
+[07/26/18, 11:29:12:059] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[07/26/18, 11:29:12:060] info: ║      Slack 3.2.1, linux 4.16.13-1-ARCH on x64 at 07/26/18, 11:29:12:057      ║
+[07/26/18, 11:29:12:060] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[07/26/18, 11:29:12:127] info: Initializing local storage instance at path: /home/naichuk/.config/Slack/local-settings.json
+[07/26/18, 11:29:12:453] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/26/18, 11:29:12:458] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/26/18, 11:29:13:025] info: Store: SET_NETWORK_STATUS online
+[07/26/18, 11:29:16:347] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8XPR1RA7"
+}
+[07/26/18, 11:29:16:354] info: Store: MAIN_WINDOW_SHOWN

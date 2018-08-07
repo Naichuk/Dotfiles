@@ -1,0 +1,227 @@
+[07/24/18, 02:38:04:952] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[07/24/18, 02:38:04:953] info: ║      Slack 3.2.1, linux 4.16.13-1-ARCH on x64 at 07/24/18, 02:38:04:950      ║
+[07/24/18, 02:38:04:953] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[07/24/18, 02:38:05:020] info: Initializing local storage instance at path: /home/naichuk/.config/Slack/local-settings.json
+[07/24/18, 02:38:05:236] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[07/24/18, 02:38:05:236] error: Desktop module calls failed to load
+[07/24/18, 02:38:05:254] info: cld3::loadModule: loading cld3 module
+[07/24/18, 02:38:05:273] info: cld3Loader::loadModule: running environment is NODE
+[07/24/18, 02:38:05:273] info: cld3Loader::loadModule: constructed module object for runtime
+[07/24/18, 02:38:05:379] info: cld3Loader::initializeRuntime: successfully initialized module
+[07/24/18, 02:38:05:379] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[07/24/18, 02:38:05:387] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[07/24/18, 02:38:05:396] info: Main window preload script finished
+{
+  "readyTime": 659.13956
+}
+[07/24/18, 02:38:07:855] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 02:38:07:973] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8XPR1RA7"
+}
+[07/24/18, 02:38:08:591] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8XPR1RA7"
+}
+[07/24/18, 02:38:08:593] info: Store: SELECT_CHANNEL CBTGFB1C7
+[07/24/18, 02:38:08:594] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[07/24/18, 02:38:08:715] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_original.jpg"
+  },
+  "teamId": "T8XPR1RA7"
+}
+[07/24/18, 02:38:08:716] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8XPR1RA7"
+}
+[07/24/18, 02:38:08:716] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8XPR1RA7"
+}
+[07/24/18, 02:38:08:836] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T8XPR1RA7"
+}
+[07/24/18, 02:38:08:838] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8XPR1RA7",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/24/18, 02:38:09:539] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 02:38:09:550] info: loadAsmModule: loading hunspell-asm module
+[07/24/18, 02:38:09:729] info: loadAsmModule: asm module loaded successfully
+[07/24/18, 02:38:09:729] info: SpellChecker: Starting spellchecker with language detector
+[07/24/18, 02:38:09:730] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[07/24/18, 02:38:09:730] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[07/24/18, 02:38:09:773] info: download: downloading dictionary for 'en-us'
+[07/24/18, 02:38:09:773] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[07/24/18, 02:38:09:776] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[07/24/18, 02:38:09:780] info: dictionaryDownloader: verifying hash
+[07/24/18, 02:38:09:802] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[07/24/18, 02:38:09:835] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[07/24/18, 02:38:09:836] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[07/24/18, 02:38:09:837] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[07/24/18, 02:38:09:837] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[07/24/18, 07:53:08:806] error: 2018/7/24 07:53:08.806 logging error: {"subtype":"none","message":"\"failed to fetch all members for channel CBTGFB1C7\"","stack":"Error\n    at Object.n (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.552f82b383d058f12cf4.min.js:1:7898)\n    at Object.e [as logError] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.552f82b383d058f12cf4.min.js:1:17274)\n    at https://a.slack-edge.com/bv1-4/rollup-client.1ae1097469bb382441ac.min.js:1:715087\n    at i (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1978184)\n    at S._settlePromise (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979036)\n    at S._settlePromise0 (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979773)\n    at S._settlePromises (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1981056)\n    at S._reject (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1980406)\n    at S._settlePromise (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979269)\n    at S._settlePromise0 (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979773)\n    at S._settlePromises (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1981056)\n    at S._reject (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1980406)\n    at S._rejectCallback (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1977619)\n    at u._reject (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1985071)\n    at u._promiseRejected (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1985398)"}
+[07/24/18, 07:53:38:295] error: Jul-24 07:53:38.295 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:53:48:716] error: Jul-24 07:53:48.716 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:53:59:753] error: Jul-24 07:53:59.753 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:54:11:835] error: Jul-24 07:54:11.835 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:54:26:408] error: Jul-24 07:54:26.408 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:54:44:630] error: Jul-24 07:54:44.630 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:55:06:360] error: Jul-24 07:55:06.360 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:55:41:030] error: Jul-24 07:55:41.030 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:56:18:379] error: Jul-24 07:56:18.379 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:57:05:885] error: Jul-24 07:57:05.885 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:58:15:898] error: Jul-24 07:58:15.898 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:59:07:596] error: Jul-24 07:59:07.596 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 07:59:46:614] error: Jul-24 07:59:46.614 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:00:18:047] error: Jul-24 08:00:18.047 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:00:36:506] error: Jul-24 08:00:36.506 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:00:48:581] error: Jul-24 08:00:48.581 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:01:01:964] error: Jul-24 08:01:01.964 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:01:15:759] error: Jul-24 08:01:15.759 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:01:27:954] error: Jul-24 08:01:27.954 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:01:43:230] error: Jul-24 08:01:43.230 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:02:06:947] error: Jul-24 08:02:06.946 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:02:49:830] error: Jul-24 08:02:49.830 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:03:59:847] error: Jul-24 08:03:59.847 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:05:09:863] error: Jul-24 08:05:09.862 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:06:19:880] error: Jul-24 08:06:19.880 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:07:29:897] error: Jul-24 08:07:29.897 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:08:39:914] error: Jul-24 08:08:39.914 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:09:17:211] error: Jul-24 08:09:17.211 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:09:56:560] error: Jul-24 08:09:56.560 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:11:06:587] error: Jul-24 08:11:06.587 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:12:16:605] error: Jul-24 08:12:16.604 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:13:16:121] error: Jul-24 08:13:16.121 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:14:26:138] error: Jul-24 08:14:26.138 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:14:49:879] error: Jul-24 08:14:49.879 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:15:08:525] error: Jul-24 08:15:08.525 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:15:24:545] error: Jul-24 08:15:24.545 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:15:36:567] error: Jul-24 08:15:36.566 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:15:50:002] error: Jul-24 08:15:50.002 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:16:09:497] error: Jul-24 08:16:09.497 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:16:44:203] error: Jul-24 08:16:44.203 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:17:51:084] error: Jul-24 08:17:51.084 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:19:01:097] error: Jul-24 08:19:01.097 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:19:47:613] error: Jul-24 08:19:47.613 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:20:11:037] error: Jul-24 08:20:11.037 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:20:48:668] error: Jul-24 08:20:48.668 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:21:33:132] error: Jul-24 08:21:33.132 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:21:50:028] error: Jul-24 08:21:50.028 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:22:06:064] error: Jul-24 08:22:06.064 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:22:18:337] error: Jul-24 08:22:18.336 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:22:29:363] error: Jul-24 08:22:29.362 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:22:42:362] error: Jul-24 08:22:42.362 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:22:56:193] error: Jul-24 08:22:56.193 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:23:07:274] error: Jul-24 08:23:07.273 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:23:18:940] error: Jul-24 08:23:18.940 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:23:31:243] error: Jul-24 08:23:31.243 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:23:44:979] error: Jul-24 08:23:44.979 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:24:03:351] error: Jul-24 08:24:03.351 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:24:18:427] error: Jul-24 08:24:18.427 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:24:31:057] error: Jul-24 08:24:31.057 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:24:47:839] error: Jul-24 08:24:47.839 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:25:01:065] error: Jul-24 08:25:01.065 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:25:17:868] error: Jul-24 08:25:17.868 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:25:33:818] error: Jul-24 08:25:33.818 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:25:52:497] error: Jul-24 08:25:52.497 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:26:16:573] error: Jul-24 08:26:16.573 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:26:57:498] error: Jul-24 08:26:57.498 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:27:26:770] error: Jul-24 08:27:26.769 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[07/24/18, 08:28:31:697] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_original.jpg"
+  },
+  "teamId": "T8XPR1RA7"
+}
+[07/24/18, 08:28:31:698] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8XPR1RA7"
+}
+[07/24/18, 11:01:49:729] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-UBRSUGK1N-c1aeff76f527-512",
+  "channel": "C8Y0R036H",
+  "content": "[REDACTED]",
+  "id": "5LqQI0h2rl2gLW9",
+  "launchUri": "slack://channel?id=C8Y0R036H&message=1532419309.000157&team=T8XPR1RA7",
+  "msg": "1532419309.000157",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[07/24/18, 12:15:49:442] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 12:15:49:555] info: Store: SELECT_CHANNEL C8Y0R036H
+[07/24/18, 20:31:11:165] error: Jul-24 20:31:11.165 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/25/18, 08:33:41:856] error: Jul-25 08:33:41.856 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/25/18, 14:55:42:543] error: 2018/7/25 14:55:42.543 logging error: {"subtype":"none","message":"\"failed to fetch all members for channel C8Y0R036H\"","stack":"Error\n    at Object.n (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.552f82b383d058f12cf4.min.js:1:7898)\n    at Object.e [as logError] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.552f82b383d058f12cf4.min.js:1:17274)\n    at https://a.slack-edge.com/bv1-4/rollup-client.1ae1097469bb382441ac.min.js:1:715087\n    at i (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1978184)\n    at S._settlePromise (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979036)\n    at S._settlePromise0 (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979773)\n    at S._settlePromises (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1981056)\n    at S._reject (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1980406)\n    at S._settlePromise (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979269)\n    at S._settlePromise0 (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979773)\n    at S._settlePromises (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1981056)\n    at S._reject (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1980406)\n    at S._rejectCallback (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1977619)\n    at u._reject (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1985071)\n    at u._promiseRejected (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1985398)"}
+[07/25/18, 14:56:32:413] error: Jul-25 14:56:32.413 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure

@@ -1,0 +1,427 @@
+[07/26/18, 15:19:50:766] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[07/26/18, 15:19:50:767] info: ║      Slack 3.2.1, linux 4.16.13-1-ARCH on x64 at 07/26/18, 15:19:50:763      ║
+[07/26/18, 15:19:50:767] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[07/26/18, 15:19:50:838] info: Initializing local storage instance at path: /home/naichuk/.config/Slack/local-settings.json
+[07/26/18, 15:19:51:116] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[07/26/18, 15:19:51:116] error: Desktop module calls failed to load
+[07/26/18, 15:19:51:155] info: cld3::loadModule: loading cld3 module
+[07/26/18, 15:19:51:184] info: cld3Loader::loadModule: running environment is NODE
+[07/26/18, 15:19:51:184] info: cld3Loader::loadModule: constructed module object for runtime
+[07/26/18, 15:19:51:423] info: cld3Loader::initializeRuntime: successfully initialized module
+[07/26/18, 15:19:51:423] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[07/26/18, 15:19:51:437] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[07/26/18, 15:19:51:459] info: Main window preload script finished
+{
+  "readyTime": 1017.475457
+}
+[07/26/18, 15:19:54:497] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8XPR1RA7"
+}
+[07/26/18, 15:19:54:502] info: Store: MAIN_WINDOW_SHOWN
+[07/26/18, 15:19:55:188] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/26/18, 15:19:55:754] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8XPR1RA7"
+}
+[07/26/18, 15:19:55:910] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 10082.332234
+}
+[07/26/18, 15:19:56:016] info: Store: SELECT_CHANNEL CBTGFB1C7
+[07/26/18, 15:19:56:017] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8XPR1RA7"
+}
+[07/26/18, 15:19:56:017] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[07/26/18, 15:19:56:018] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8XPR1RA7",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/26/18, 15:19:56:040] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1920,
+    1060
+  ]
+}
+[07/26/18, 15:19:56:319] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_original.jpg"
+  },
+  "teamId": "T8XPR1RA7"
+}
+[07/26/18, 15:19:56:320] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8XPR1RA7"
+}
+[07/26/18, 15:19:56:321] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8XPR1RA7"
+}
+[07/26/18, 15:19:56:515] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T8XPR1RA7"
+}
+[07/26/18, 15:19:56:515] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8XPR1RA7",
+  "token": "xoxs-⋯"
+}
+[07/26/18, 15:19:57:444] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[07/26/18, 15:19:57:459] info: loadAsmModule: loading hunspell-asm module
+[07/26/18, 15:19:57:725] info: loadAsmModule: asm module loaded successfully
+[07/26/18, 15:19:57:725] info: SpellChecker: Starting spellchecker with language detector
+[07/26/18, 15:19:57:725] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[07/26/18, 15:19:57:725] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[07/26/18, 15:19:57:750] info: download: downloading dictionary for 'en-us'
+[07/26/18, 15:19:57:751] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[07/26/18, 15:19:57:756] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[07/26/18, 15:19:57:768] info: dictionaryDownloader: verifying hash
+[07/26/18, 15:19:57:806] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[07/26/18, 15:19:57:852] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[07/26/18, 15:19:57:856] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[07/26/18, 15:19:57:856] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[07/26/18, 15:19:57:858] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[07/26/18, 16:36:23:459] info: Store: FOREGROUND_APP
+[07/26/18, 16:36:23:467] info: Store: SET_FULL_SCREEN
+[07/26/18, 16:36:23:899] info: Store: FOREGROUND_APP
+[07/26/18, 16:36:24:107] info: Store: FOREGROUND_APP
+[07/26/18, 16:36:29:822] info: Store: SET_FULL_SCREEN
+[07/26/18, 20:36:56:926] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "L4rsPhmQ14qPpo",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1532626616.000304&team=T8XPR1RA7",
+  "msg": "1532626616.000304",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[07/27/18, 03:24:35:794] error: Jul-27 03:24:35.794 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/27/18, 09:45:26:843] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "C8Y0R036H",
+  "content": "[REDACTED]",
+  "id": "84ZsXiMQEGpYqR",
+  "launchUri": "slack://channel?id=C8Y0R036H&message=1532673926.000146&team=T8XPR1RA7",
+  "msg": "1532673926.000146",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[07/27/18, 10:02:15:928] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "YgLcksVm2yB4AG",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1532674935.000248&team=T8XPR1RA7",
+  "msg": "1532674935.000248",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[07/27/18, 11:24:12:058] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-UB67J6D63-0d1c199468a3-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "O4xs2trQWVYERJ",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1532679852.000006&team=T8XPR1RA7",
+  "msg": "1532679852.000006",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[07/27/18, 11:33:34:246] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "YgLcAuVm2vYOvw",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1532680414.000066&team=T8XPR1RA7",
+  "msg": "1532680414.000066",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[07/27/18, 14:28:11:210] info: Store: FOREGROUND_APP
+[07/27/18, 14:28:11:218] info: Store: SET_FULL_SCREEN
+[07/27/18, 14:28:11:651] info: Store: FOREGROUND_APP
+[07/27/18, 14:28:12:010] info: Store: FOREGROUND_APP
+[07/27/18, 14:28:12:058] info: Store: FOREGROUND_APP
+[07/27/18, 14:28:13:527] info: Store: SET_FULL_SCREEN
+[07/27/18, 15:25:16:288] error: Jul-27 15:25:16.287 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/27/18, 16:21:13:529] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-UB4EA0GD6-g530cc2a49a7-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "4XZh9CWn3nRX6X",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1532697673.000214&team=T8XPR1RA7",
+  "msg": "1532697673.000214",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[07/27/18, 16:21:21:599] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[07/28/18, 00:35:02:547] error: Jul-28 00:35:02.547 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/28/18, 00:35:23:479] error: Jul-28 00:35:23.478 SOCKET-MANAGER (T8XPR1RA7) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[07/28/18, 00:35:23:479] error: Jul-28 00:35:23.479 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4107: client state machine got stuck
+[07/28/18, 12:37:11:482] error: Jul-28 12:37:11.482 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/29/18, 00:38:32:528] error: Jul-29 00:38:32.528 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/29/18, 12:42:23:009] error: Jul-29 12:42:23.008 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/30/18, 00:46:43:808] error: Jul-30 00:46:43.807 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/30/18, 11:24:54:772] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/30/18, 11:24:54:840] info: Store: SELECT_CHANNEL C8Y0R036H
+[07/30/18, 11:25:19:774] info: Store: START_DOWNLOAD
+{
+  "id": "FBZ4GB8D8",
+  "teamId": "T8XPR1RA7",
+  "url": "[REDACTED]"
+}
+[07/30/18, 11:25:19:775] info: Store: UPDATE_DOWNLOAD
+{
+  "downloadState": "started",
+  "id": "FBZ4GB8D8",
+  "teamId": "T8XPR1RA7"
+}
+[07/30/18, 11:25:20:129] info: Store: UPDATE_DOWNLOAD
+{
+  "downloadPath": "[REDACTED]",
+  "downloadState": "progressing",
+  "id": "FBZ4GB8D8",
+  "requestState": null,
+  "teamId": "T8XPR1RA7"
+}
+[07/30/18, 11:25:20:130] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBZ4GB8D8",
+  "isPaused": false,
+  "progress": 0,
+  "teamId": "T8XPR1RA7"
+}
+[07/30/18, 11:25:20:130] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBZ4GB8D8",
+  "isPaused": false,
+  "progress": 1,
+  "teamId": "T8XPR1RA7"
+}
+[07/30/18, 11:25:20:131] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBZ4GB8D8",
+  "isPaused": false,
+  "progress": 1,
+  "teamId": "T8XPR1RA7"
+}
+[07/30/18, 11:25:20:139] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBZ4GB8D8",
+  "isPaused": false,
+  "progress": 1,
+  "teamId": "T8XPR1RA7"
+}
+[07/30/18, 11:25:20:166] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBZ4GB8D8",
+  "isPaused": false,
+  "progress": 1,
+  "teamId": "T8XPR1RA7"
+}
+[07/30/18, 11:25:20:167] info: Store: UPDATE_DOWNLOAD
+{
+  "downloadState": "completed",
+  "endTime": 1532939120149,
+  "id": "FBZ4GB8D8",
+  "requestState": null,
+  "teamId": "T8XPR1RA7"
+}
+[07/30/18, 11:25:20:194] info: Store: DOWNLOAD_NOTIFICATION
+{
+  "avatarImage": "",
+  "body": "",
+  "channel": "",
+  "content": "[REDACTED]",
+  "id": "T8XPR1RA7FBZ4GB8D8",
+  "initials": "",
+  "msg": "[REDACTED]",
+  "silent": false,
+  "sound": "confirm_delivery.mp3",
+  "ssbFilename": "confirm_delivery.mp3",
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "Download complete",
+  "type": 1
+}
+[07/30/18, 11:25:23:749] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    960,
+    20
+  ],
+  "size": [
+    960,
+    1060
+  ]
+}
+[07/30/18, 11:25:30:407] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1920,
+    1060
+  ]
+}
+[07/30/18, 11:25:34:880] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/30/18, 11:25:35:021] info: Store: SELECT_CHANNEL CBTGFB1C7
+[07/30/18, 12:48:04:098] error: Jul-30 12:48:04.098 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/30/18, 16:24:28:036] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "4XZhmFWn5q38qo",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1532957067.000518&team=T8XPR1RA7",
+  "msg": "1532957067.000518",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[07/30/18, 16:30:55:194] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/30/18, 16:30:55:342] info: Store: SELECT_CHANNEL C8Y0R036H
+[07/30/18, 16:30:57:980] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/30/18, 16:30:58:123] info: Store: SELECT_CHANNEL CBTGFB1C7
+[07/31/18, 00:51:58:149] error: Jul-31 00:51:58.149 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/31/18, 12:54:39:828] error: Jul-31 12:54:39.827 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[07/31/18, 18:21:44:224] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "6Z1hMH5KvnL9zO",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1533050504.000110&team=T8XPR1RA7",
+  "msg": "1533050504.000110",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[07/31/18, 18:21:55:688] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "C8Y0R036H",
+  "content": "[REDACTED]",
+  "id": "5YZUwI2rjE8Q0J",
+  "launchUri": "slack://channel?id=C8Y0R036H&message=1533050515.000433&team=T8XPR1RA7",
+  "msg": "1533050515.000433",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[08/01/18, 00:57:40:190] error: Aug-1 00:57:40.190 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[08/01/18, 04:10:19:352] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T8XPR1RA7"
+}
+[08/01/18, 04:10:19:355] info: Window is unloading, window.desktop is no longer accessible
+[08/01/18, 04:10:19:605] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8XPR1RA7"
+}

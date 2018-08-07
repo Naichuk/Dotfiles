@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "core/jquery.min.js", "core/analytics.js", "core/default-domains.js", "core/app.js", "core/proxy.js", "core/chrome.js" ]
+   },
+   "browser_action": {
+      "default_title": "__MSG_title__"
+   },
+   "content_scripts": [ {
+      "js": [ "/core/jquery.min.js", "/core/message.js" ],
+      "matches": [ "*://vk.com/*" ]
+   } ],
+   "default_locale": "ru",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "32": "img/icon-32.png",
+      "48": "img/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1hgIaB7zrN+K6cDsF7HxJGnsYeihdkKATVs64/YLbYkJiMETrSg7+aiRDArQYmnEft04HGjcz1Dj9nXE9FHkqyvbnLUp8wyDZOPbZR8TRx1sfBeS2Lky4SHUIKHmWveZ1NA/sv02FTTy0ME0VLOg1etk67xaTfbh1LUmKfkZJXznLS4KGRH+UGEn35GGZeHNElk/A2bNAMi+PYrKig5a7nlX0K1lkeV/efP7KVHMUat6WxlNfsBOt5Cp3noyhbyDFIv91S5xkb0wzomSflWhLg2OD5xCYO1BHJws/w6OSIy6S2oUitgg+sG2YrZN/caGjMURS52046hvtdyrqWsEYQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "webRequest", "webRequestBlocking", "*://*/*", "proxy", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.7.16"
+}

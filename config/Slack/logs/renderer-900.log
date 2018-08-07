@@ -1,0 +1,100 @@
+[08/06/18, 12:58:51:193] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[08/06/18, 12:58:51:194] info: ║      Slack 3.2.1, linux 4.16.13-1-ARCH on x64 at 08/06/18, 12:58:51:191      ║
+[08/06/18, 12:58:51:194] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[08/06/18, 12:58:51:345] info: Initializing local storage instance at path: /home/naichuk/.config/Slack/local-settings.json
+[08/06/18, 12:58:51:486] info: NetworkStatus: Waiting for network online…
+[08/06/18, 12:58:51:693] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[08/06/18, 12:58:51:695] info: Don't start background client because T8XPR1RA7 is selected team
+[08/06/18, 12:58:51:698] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[08/06/18, 12:58:51:887] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[08/06/18, 12:58:52:289] info: Store: SET_NETWORK_STATUS online
+[08/06/18, 12:58:55:656] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:55:661] info: Store: MAIN_WINDOW_SHOWN
+[08/06/18, 12:58:55:901] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:56:372] info: Store: SELECT_CHANNEL CBTGFB1C7
+[08/06/18, 12:58:56:374] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:56:377] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[08/06/18, 12:58:56:382] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8XPR1RA7",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[08/06/18, 12:58:56:690] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1920,
+    1060
+  ]
+}
+[08/06/18, 12:58:56:904] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_original.jpg"
+  },
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:56:999] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:57:004] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:57:007] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[08/06/18, 12:58:57:276] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T8XPR1RA7"
+}
+[08/06/18, 12:58:57:278] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8XPR1RA7",
+  "token": "xoxs-⋯"
+}

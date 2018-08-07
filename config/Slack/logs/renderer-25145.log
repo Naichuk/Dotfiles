@@ -1,0 +1,305 @@
+[08/03/18, 06:29:20:447] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[08/03/18, 06:29:20:448] info: ║      Slack 3.2.1, linux 4.16.13-1-ARCH on x64 at 08/03/18, 06:29:20:444      ║
+[08/03/18, 06:29:20:448] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[08/03/18, 06:29:20:529] info: Initializing local storage instance at path: /home/naichuk/.config/Slack/local-settings.json
+[08/03/18, 06:29:20:812] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[08/03/18, 06:29:20:812] error: Desktop module calls failed to load
+[08/03/18, 06:29:20:833] info: cld3::loadModule: loading cld3 module
+[08/03/18, 06:29:20:856] info: cld3Loader::loadModule: running environment is NODE
+[08/03/18, 06:29:20:856] info: cld3Loader::loadModule: constructed module object for runtime
+[08/03/18, 06:29:20:968] info: cld3Loader::initializeRuntime: successfully initialized module
+[08/03/18, 06:29:20:969] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[08/03/18, 06:29:20:978] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[08/03/18, 06:29:20:989] info: Main window preload script finished
+{
+  "readyTime": 829.923395
+}
+[08/03/18, 06:29:23:296] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8XPR1RA7"
+}
+[08/03/18, 06:29:23:673] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 06:29:24:352] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8XPR1RA7"
+}
+[08/03/18, 06:29:24:354] info: Store: SELECT_CHANNEL CBTGFB1C7
+[08/03/18, 06:29:24:354] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[08/03/18, 06:29:24:454] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-03-01/323046492802_5625d7a8fab81aa6e80a_original.jpg"
+  },
+  "teamId": "T8XPR1RA7"
+}
+[08/03/18, 06:29:24:454] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8XPR1RA7"
+}
+[08/03/18, 06:29:24:455] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8XPR1RA7"
+}
+[08/03/18, 06:29:24:456] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[08/03/18, 06:29:24:535] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T8XPR1RA7"
+}
+[08/03/18, 06:29:24:536] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8XPR1RA7",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[08/03/18, 06:29:25:224] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 06:29:25:237] info: loadAsmModule: loading hunspell-asm module
+[08/03/18, 06:29:25:427] info: loadAsmModule: asm module loaded successfully
+[08/03/18, 06:29:25:427] info: SpellChecker: Starting spellchecker with language detector
+[08/03/18, 06:29:25:427] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[08/03/18, 06:29:25:428] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[08/03/18, 06:29:25:580] info: download: downloading dictionary for 'en-us'
+[08/03/18, 06:29:25:581] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[08/03/18, 06:29:26:122] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[08/03/18, 06:29:27:271] info: dictionaryDownloader: verifying hash
+[08/03/18, 06:29:29:635] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[08/03/18, 06:29:29:671] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[08/03/18, 06:29:29:672] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[08/03/18, 06:29:29:672] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[08/03/18, 06:29:29:673] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[08/03/18, 09:33:51:012] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 09:33:51:125] info: Store: SELECT_CHANNEL C8Y0R036H
+[08/03/18, 09:33:54:089] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 09:33:54:256] info: Store: SELECT_CHANNEL CBTGFB1C7
+[08/03/18, 09:33:54:838] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 09:33:54:912] info: Store: SELECT_CHANNEL C8XSP08LA
+[08/03/18, 09:33:56:325] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 09:33:56:462] info: Store: SELECT_CHANNEL C8Y0R036H
+[08/03/18, 09:34:00:551] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 09:34:00:678] info: Store: SELECT_CHANNEL CBTGFB1C7
+[08/03/18, 09:34:01:305] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 09:34:01:426] info: Store: SELECT_CHANNEL C8Y0R036H
+[08/03/18, 09:34:10:483] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 09:34:10:600] info: Store: SELECT_CHANNEL CBTGFB1C7
+[08/03/18, 10:55:25:006] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-UB4EA0GD6-fd9a4878fa5a-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "BQlyCVhjwnE1ZmE",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1533282924.000327&team=T8XPR1RA7",
+  "msg": "1533282924.000327",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[08/03/18, 13:21:30:524] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 13:21:30:677] info: Store: SELECT_CHANNEL C8Y0R036H
+[08/03/18, 13:21:35:294] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 13:21:35:430] info: Store: SELECT_CHANNEL CBTGFB1C7
+[08/03/18, 13:36:24:646] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "yMQnf7iRJvr8Qr3",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1533292584.000156&team=T8XPR1RA7",
+  "msg": "1533292584.000156",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[08/03/18, 13:43:47:113] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "C8Y0R036H",
+  "content": "[REDACTED]",
+  "id": "vDKkSOsAGYPRW27",
+  "launchUri": "slack://channel?id=C8Y0R036H&message=1533293027.000021&team=T8XPR1RA7",
+  "msg": "1533293027.000021",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[08/03/18, 13:46:42:081] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "C8Y0R036H",
+  "content": "[REDACTED]",
+  "id": "mGlPSRt9jExyMM0",
+  "launchUri": "slack://channel?id=C8Y0R036H&message=1533293202.000013&team=T8XPR1RA7",
+  "msg": "1533293202.000013",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[08/03/18, 13:50:07:092] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "C8Y0R036H",
+  "content": "[REDACTED]",
+  "id": "62Ljiyu5KQ1n797",
+  "launchUri": "slack://channel?id=C8Y0R036H&message=1533293407.000023&team=T8XPR1RA7",
+  "msg": "1533293407.000023",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[08/03/18, 14:07:33:470] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 14:07:33:528] info: Store: SELECT_CHANNEL C8Y0R036H
+[08/03/18, 14:07:34:041] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 14:07:34:170] info: Store: SELECT_CHANNEL CBTGFB1C7
+[08/03/18, 15:45:19:319] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 15:45:19:390] info: Store: SELECT_CHANNEL C8Y0R036H
+[08/03/18, 15:45:22:293] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/03/18, 15:45:22:422] info: Store: SELECT_CHANNEL CBTGFB1C7
+[08/03/18, 18:30:44:077] error: Aug-3 18:30:44.077 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[08/03/18, 19:36:04:446] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "C8Y0R036H",
+  "content": "[REDACTED]",
+  "id": "3OBGH9CDGz7ywLA",
+  "launchUri": "slack://channel?id=C8Y0R036H&message=1533314164.000177&team=T8XPR1RA7",
+  "msg": "1533314164.000177",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[08/03/18, 21:07:22:957] error: Aug-3 21:07:22.957 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[08/03/18, 21:07:43:536] error: Aug-3 21:07:43.536 SOCKET-MANAGER (T8XPR1RA7) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[08/03/18, 21:07:43:537] error: Aug-3 21:07:43.537 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4107: client state machine got stuck
+[08/03/18, 21:08:04:783] error: Aug-3 21:08:04.783 SOCKET-MANAGER (T8XPR1RA7) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[08/03/18, 21:08:04:784] error: Aug-3 21:08:04.784 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4107: client state machine got stuck
+[08/04/18, 09:13:13:711] error: Aug-4 09:13:13.711 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[08/04/18, 18:02:39:491] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8XPR1RA7-U8XSP003U-g2d535e8367a-512",
+  "channel": "CBTGFB1C7",
+  "content": "[REDACTED]",
+  "id": "KmKRtBFADXMM9BW",
+  "launchUri": "slack://channel?id=CBTGFB1C7&message=1533394959.000032&team=T8XPR1RA7",
+  "msg": "1533394959.000032",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8XPR1RA7",
+  "title": "[REDACTED]"
+}
+[08/04/18, 21:16:01:588] error: Aug-4 21:16:01.588 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[08/05/18, 09:19:02:370] error: Aug-5 09:19:02.369 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[08/05/18, 21:22:40:401] error: Aug-5 21:22:40.401 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[08/05/18, 23:01:41:292] error: 2018/8/5 23:01:41.292 logging error: {"subtype":"none","message":"\"failed to fetch all members for channel CBTGFB1C7\"","stack":"Error\n    at Object.n (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.6c3e7e604d7728b2b58a.min.js:1:7806)\n    at Object.e [as logError] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.6c3e7e604d7728b2b58a.min.js:1:17182)\n    at https://a.slack-edge.com/bv1-4/rollup-client.2e4bc0f52379d7b5b06d.min.js:1:717428\n    at i (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1978184)\n    at S._settlePromise (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979036)\n    at S._settlePromise0 (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979773)\n    at S._settlePromises (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1981056)\n    at S._reject (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1980406)\n    at S._settlePromise (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979269)\n    at S._settlePromise0 (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1979773)\n    at S._settlePromises (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1981056)\n    at S._reject (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1980406)\n    at S._rejectCallback (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1977619)\n    at u._reject (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1985071)\n    at u._promiseRejected (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.eb77e435d1ecfa8fa776.min.js:1:1985398)"}
+[08/05/18, 23:02:21:147] error: Aug-5 23:02:21.146 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4108: unexpected socket closure
+[08/06/18, 11:03:25:812] error: Aug-6 11:03:25.812 SOCKET-MANAGER (T8XPR1RA7) Closing socket because #4104: received goodbye from server
+[08/06/18, 12:09:57:965] info: Store: FOREGROUND_APP
+[08/06/18, 12:09:58:722] info: Store: FOREGROUND_APP
+[08/06/18, 12:09:58:859] info: Store: FOREGROUND_APP
+[08/06/18, 12:09:59:034] info: Store: FOREGROUND_APP
+[08/06/18, 12:10:01:320] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/06/18, 12:10:01:377] info: Store: SELECT_CHANNEL C8Y0R036H
+[08/06/18, 12:10:03:070] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/06/18, 12:10:03:216] info: Store: SELECT_CHANNEL CBTGFB1C7
